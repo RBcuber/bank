@@ -4,7 +4,7 @@ let bankAccount = {
 		return this._balance;
 	},
 	set upBalance(value) {
-		this._balance += value
+		this._balance += value;
 		document.querySelector(
 			'.balance'
 		).textContent = `На счету ${this._balance}€`;
@@ -18,7 +18,7 @@ let bankAccount = {
 		document.querySelector(
 			'.balance'
 		).textContent = `На счету ${this._balance}€`;
-	}
+	},
 };
 document.querySelector('.bank-button1').addEventListener('click', () => {
 	let value = prompt('Введите сумму:');
