@@ -1,0 +1,25 @@
+body {
+	height: 100vh;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	margin: 0;
+}
+.button {
+  text-align: center;
+}
+
+.bank-button {
+  padding: 20px 40px;
+  font-size: 20px;
+  background-color: #28a745;
+  color: white;             
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bank-button:hover {
+  background-color: #218838;
+}
