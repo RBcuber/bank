@@ -9,13 +9,15 @@ let bankAccount = {
 		} else {
 			this._balance += value;
 		}
+		document.querySelector(
+			'.balance'
+		).textContent = `На счету ${this._balance}€`;
 	},
 };
 document.querySelector('.bank-button').addEventListener('click', () => {
 	let value = prompt('Введите сумму:');
 	bankAccount.balance = +value;
-	if(value ===	null){
+	if (value === null) {
 		alert(`Ваш текущий баланс: ${bankAccount.balance}€`);
 	}
-	
 });

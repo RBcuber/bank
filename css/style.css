@@ -23,3 +23,6 @@ body {
 .bank-button:hover {
   background-color: #218838;
 }
+.balance {
+  color: #ffffff
+}
